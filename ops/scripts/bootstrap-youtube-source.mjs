@@ -71,7 +71,7 @@ function json3ToTurns(data) {
     turns.push({
       start: Number(current.start.toFixed(3)),
       end: Number(Math.max(current.start, current.end).toFixed(3)),
-      speaker: "Jiang Xueqin",
+      speaker: "UNKNOWN",
       text: cleanText(current.text),
     });
     current = null;
@@ -188,7 +188,7 @@ async function processVideo(item, channelPath) {
       schema_version: 1,
       source: "youtube-captions",
       language: "en",
-      speaker_mode: "single-speaker-assumed",
+      speaker_mode: "unresolved-youtube-captions",
       generated_at: new Date().toISOString(),
       turns,
     });

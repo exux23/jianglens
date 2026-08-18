@@ -101,5 +101,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/sources/raw/youtube content/sources/videos content/workflow/tasks
           git commit -m "Scout and bootstrap Predictive History sources"
+
+          # compile-content intentionally regenerates tracked and untracked website data.
+          # The source-state commit above is durable; discard validation-only output so
+          # a rebase can proceed on a clean worktree.
+          git reset --hard HEAD
+          git clean -fd
+
           git pull --rebase origin main
           git push origin HEAD:main

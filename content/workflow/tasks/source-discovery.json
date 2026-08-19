@@ -4,6 +4,811 @@
     "path": "@PredictiveHistory",
     "url": "https://www.youtube.com/@PredictiveHistory/videos"
   },
-  "last_discovery_change_at": null,
-  "sources": []
+  "last_discovery_change_at": "2026-08-19T01:57:55.752Z",
+  "sources": [
+    {
+      "video_id": "N2GFDDZtGQY",
+      "title": "Global Meet-Up #2 (Los Angeles):  The \"End of the World\" US Tour",
+      "url": "https://www.youtube.com/watch?v=N2GFDDZtGQY",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "needs-transcript",
+      "last_attempt_at": "2026-08-19T01:57:59.554Z",
+      "last_error": "ERROR: [youtube] N2GFDDZtGQY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
+    {
+      "video_id": "5rDMq-5_xkM",
+      "title": "Global Meet-Up #3 (New York City):  The Eschatology of Capitalism",
+      "url": "https://www.youtube.com/watch?v=5rDMq-5_xkM",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "needs-transcript",
+      "last_attempt_at": "2026-08-19T01:58:02.368Z",
+      "last_error": "ERROR: [youtube] 5rDMq-5_xkM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
+    {
+      "video_id": "Z1G6WI1Q0M8",
+      "title": "Emergency Discussion #2:  The Blackmailing of Spain",
+      "url": "https://www.youtube.com/watch?v=Z1G6WI1Q0M8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "discovered"
+    },
+    {
+      "video_id": "A9Sr-4c-3Tg",
+      "title": "Emergency Discussion #1:  Spain Wins World Cup, US Plans Ground Invasion of Iran",
+      "url": "https://www.youtube.com/watch?v=A9Sr-4c-3Tg",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "discovered"
+    },
+    {
+      "video_id": "E7QKiRnw0M8",
+      "title": "Live with Predictive History #2:  US-Iran War, World Cup",
+      "url": "https://www.youtube.com/watch?v=E7QKiRnw0M8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "discovered"
+    },
+    {
+      "video_id": "zbjLl85FLUc",
+      "title": "Global Meet-Up #1 (Tokyo):  Japan's Geo-Political Outlook",
+      "url": "https://www.youtube.com/watch?v=zbjLl85FLUc",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "discovered"
+    },
+    {
+      "video_id": "qRCSZoGC2Dg",
+      "title": "Substack Founding Members Livestream #2",
+      "url": "https://www.youtube.com/watch?v=qRCSZoGC2Dg",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "discovered"
+    },
+    {
+      "video_id": "Sa5kffYLvBE",
+      "title": "Dante #12 (Final): Purgatory Cantos 26-33",
+      "url": "https://www.youtube.com/watch?v=Sa5kffYLvBE",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "discovered"
+    },
+    {
+      "video_id": "oR3EOW52WCc",
+      "title": "Dante #11: Purgatory Cantos 15-25",
+      "url": "https://www.youtube.com/watch?v=oR3EOW52WCc",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "MDOK9qaaA7Q",
+      "title": "Dante #10: Purgatory Cantos 5-14",
+      "url": "https://www.youtube.com/watch?v=MDOK9qaaA7Q",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "SSmJKnUOsAc",
+      "title": "Dante #9: Hell Cantos 32-34, Purgatory Cantos 1-4",
+      "url": "https://www.youtube.com/watch?v=SSmJKnUOsAc",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "oFK53cYz_h0",
+      "title": "Dante #8: Hell Cantos 20-32",
+      "url": "https://www.youtube.com/watch?v=oFK53cYz_h0",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "P82v6UAc9ss",
+      "title": "Dante #7: Hell Cantos 10-19",
+      "url": "https://www.youtube.com/watch?v=P82v6UAc9ss",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "e_9fndobOnI",
+      "title": "Dante #6: Hell Cantos 3-9",
+      "url": "https://www.youtube.com/watch?v=e_9fndobOnI",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "xPxEi5Zm0G4",
+      "title": "Dante #5: Paradise Cantos 30-33, Hell Cantos 1-2",
+      "url": "https://www.youtube.com/watch?v=xPxEi5Zm0G4",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "brRNCLD7to0",
+      "title": "Dante #4: Paradise Cantos 24-29",
+      "url": "https://www.youtube.com/watch?v=brRNCLD7to0",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "6tzAyCZ4Omk",
+      "title": "Dante #3: Paradise Cantos 11, 12, 17, 24",
+      "url": "https://www.youtube.com/watch?v=6tzAyCZ4Omk",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "eF5B3CWpKxg",
+      "title": "Dante #2: Paradise Cantos 5-7",
+      "url": "https://www.youtube.com/watch?v=eF5B3CWpKxg",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "7AG3EMDvKT0",
+      "title": "Dante #1:  Paradise Cantos 1-5",
+      "url": "https://www.youtube.com/watch?v=7AG3EMDvKT0",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "f03GAKlvZRs",
+      "title": "Substack Live #1:  Welcome to Boomer Hell",
+      "url": "https://www.youtube.com/watch?v=f03GAKlvZRs",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "kFH4AujWqtI",
+      "title": "Predictive History Founding Members #1",
+      "url": "https://www.youtube.com/watch?v=kFH4AujWqtI",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "VWmPHHnZuiw",
+      "title": "Great Books #13:  Gay Talese's Sparks of Light",
+      "url": "https://www.youtube.com/watch?v=VWmPHHnZuiw",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "RE2UribEFIo",
+      "title": "Game Theory #29:  Final Examination",
+      "url": "https://www.youtube.com/watch?v=RE2UribEFIo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "FspDllFoiDE",
+      "title": "Great Books #12:  Dante in Paradise",
+      "url": "https://www.youtube.com/watch?v=FspDllFoiDE",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "dja6dkCfngE",
+      "title": "Game Theory #28:  Predictive History",
+      "url": "https://www.youtube.com/watch?v=dja6dkCfngE",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "otyUpKhpTYM",
+      "title": "Great Books #11:  Dante's Revolution",
+      "url": "https://www.youtube.com/watch?v=otyUpKhpTYM",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "x83HcLWvHI8",
+      "title": "Game Theory #27:  Putin Enters the Chat",
+      "url": "https://www.youtube.com/watch?v=x83HcLWvHI8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "RG1clZlrfOo",
+      "title": "Game Theory #26:  The Holy Empire of AI",
+      "url": "https://www.youtube.com/watch?v=RG1clZlrfOo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "BIl5vJn6ohI",
+      "title": "Game Theory #25:  Trump Visits China",
+      "url": "https://www.youtube.com/watch?v=BIl5vJn6ohI",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "8nsxuB3Vsts",
+      "title": "Game Theory #24:  The AI Apocalypse",
+      "url": "https://www.youtube.com/watch?v=8nsxuB3Vsts",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "6aNh6sBpqvQ",
+      "title": "Game Theory #23:  The WWIII Chessboard",
+      "url": "https://www.youtube.com/watch?v=6aNh6sBpqvQ",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "wGpdMYa2bME",
+      "title": "Great Books #10:  Dante's Hierarchy of Hell",
+      "url": "https://www.youtube.com/watch?v=wGpdMYa2bME",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "txgPfnXgzcE",
+      "title": "Game Theory #22:  Twilight of the Nation-State",
+      "url": "https://www.youtube.com/watch?v=txgPfnXgzcE",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "Ts-AA6LQf6I",
+      "title": "Game Theory #21:  World War Trump",
+      "url": "https://www.youtube.com/watch?v=Ts-AA6LQf6I",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ue8y5e3HnHE",
+      "title": "Game Theory #20:  Mid-Term Examination",
+      "url": "https://www.youtube.com/watch?v=ue8y5e3HnHE",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "4EZUrGPgAos",
+      "title": "Great Books #9:  Dante (Re-Upload with Audio Fixed)",
+      "url": "https://www.youtube.com/watch?v=4EZUrGPgAos",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "6M1Z_V3WgOk",
+      "title": "Great Books #9:  Dante's La Commedia",
+      "url": "https://www.youtube.com/watch?v=6M1Z_V3WgOk",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "0HYET47Cc-E",
+      "title": "Game Theory #19:  The Hollywood-Pentagon Complex",
+      "url": "https://www.youtube.com/watch?v=0HYET47Cc-E",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "xrmERlHUqBk",
+      "title": "Game Theory #18:  Trump World Order",
+      "url": "https://www.youtube.com/watch?v=xrmERlHUqBk",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "VbowBTJWKBo",
+      "title": "Game Theory #17:  The Great Reset",
+      "url": "https://www.youtube.com/watch?v=VbowBTJWKBo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "mk4vcHtawSo",
+      "title": "Game Theory #16:  Pax Judaica Rising (Re-Upload)",
+      "url": "https://www.youtube.com/watch?v=mk4vcHtawSo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "0aASxQrJYuo",
+      "title": "Game Theory #16:  Pax Judaica Rising",
+      "url": "https://www.youtube.com/watch?v=0aASxQrJYuo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "YXTRlvFIRt8",
+      "title": "Great Books #8:  The Poetry of Empire",
+      "url": "https://www.youtube.com/watch?v=YXTRlvFIRt8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "zAer-Mqe7tQ",
+      "title": "Game Theory #15:  The Return of History",
+      "url": "https://www.youtube.com/watch?v=zAer-Mqe7tQ",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "nOQqGy4boBY",
+      "title": "Game Theory #14:  The Law of Proximity",
+      "url": "https://www.youtube.com/watch?v=nOQqGy4boBY",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "EBWTRvjZ1dw",
+      "title": "Great Books #7:  The Anti-Homer",
+      "url": "https://www.youtube.com/watch?v=EBWTRvjZ1dw",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "aQSDSqdlFxk",
+      "title": "Game Theory #13:  Epstein's World",
+      "url": "https://www.youtube.com/watch?v=aQSDSqdlFxk",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "spg58Glfz68",
+      "title": "Game Theory #12:  The Law of Eschatological Convergence",
+      "url": "https://www.youtube.com/watch?v=spg58Glfz68",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "aS-NfPSPMu8",
+      "title": "Great Books #6:  The Intimacy of Love",
+      "url": "https://www.youtube.com/watch?v=aS-NfPSPMu8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "fz-Dan7NRss",
+      "title": "Game Theory #11:  The Law of Escalation",
+      "url": "https://www.youtube.com/watch?v=fz-Dan7NRss",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "t5oisJiorsU",
+      "title": "Game Theory #10:  The Law of Asymmetry",
+      "url": "https://www.youtube.com/watch?v=t5oisJiorsU",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "gXlcR7uHHdA",
+      "title": "Great Books #5:  The Odyssey",
+      "url": "https://www.youtube.com/watch?v=gXlcR7uHHdA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "jIS2eB-rGv0",
+      "title": "Game Theory #9:  The US-Iran War",
+      "url": "https://www.youtube.com/watch?v=jIS2eB-rGv0",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "axqDLhWs93Q",
+      "title": "Game Theory #8:  Communist Specter",
+      "url": "https://www.youtube.com/watch?v=axqDLhWs93Q",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "dkzr5A8IlLA",
+      "title": "Great Books #4:  The Conscious Universe",
+      "url": "https://www.youtube.com/watch?v=dkzr5A8IlLA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ijnkCt1QK6k",
+      "title": "Game Theory #7:  America's Game",
+      "url": "https://www.youtube.com/watch?v=ijnkCt1QK6k",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "CbamEcNuDXo",
+      "title": "Game Theory #6:  The World's Bank",
+      "url": "https://www.youtube.com/watch?v=CbamEcNuDXo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "XRP407WsA0w",
+      "title": "Great Books #3:  Poets and Prophets",
+      "url": "https://www.youtube.com/watch?v=XRP407WsA0w",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ybufqRY77PQ",
+      "title": "Game Theory #5:  The World Game",
+      "url": "https://www.youtube.com/watch?v=ybufqRY77PQ",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "35HRPLVyF0g",
+      "title": "Game Theory #4:  The Immigration Trap",
+      "url": "https://www.youtube.com/watch?v=35HRPLVyF0g",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "Ft2CuowGuYc",
+      "title": "Great Books #2:  Homer and the Invention of the Human",
+      "url": "https://www.youtube.com/watch?v=Ft2CuowGuYc",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "MX93U4KzA28",
+      "title": "Game Theory #3:  Rich Dad, Poor Dad",
+      "url": "https://www.youtube.com/watch?v=MX93U4KzA28",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "kS-muAuq62E",
+      "title": "Game Theory #2:  Why Schools Suck",
+      "url": "https://www.youtube.com/watch?v=kS-muAuq62E",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "TsD-8FGA84A",
+      "title": "Great Books #1:  Secrets of the Universe",
+      "url": "https://www.youtube.com/watch?v=TsD-8FGA84A",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "hE4l9WyLF3U",
+      "title": "Game Theory #1:  The Dating Game",
+      "url": "https://www.youtube.com/watch?v=hE4l9WyLF3U",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "WFWizN3QoPg",
+      "title": "Secret History #END:  Pax Judaica",
+      "url": "https://www.youtube.com/watch?v=WFWizN3QoPg",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ZPrecJHUOUs",
+      "title": "Secret History #27:  Empire of Evil",
+      "url": "https://www.youtube.com/watch?v=ZPrecJHUOUs",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "kULUM_eB8KI",
+      "title": "Secret History #26:  Faith of Evil",
+      "url": "https://www.youtube.com/watch?v=kULUM_eB8KI",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "B5FtHagng8c",
+      "title": "Secret History #25:  Capital of Evil",
+      "url": "https://www.youtube.com/watch?v=B5FtHagng8c",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "TEdVhyE8pO0",
+      "title": "Secret History #24:  Empire of Church",
+      "url": "https://www.youtube.com/watch?v=TEdVhyE8pO0",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "6XGAc_OqCbU",
+      "title": "Secret History #23:  The Organization of Evil",
+      "url": "https://www.youtube.com/watch?v=6XGAc_OqCbU",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "pp0E1gb80WQ",
+      "title": "Secret History #22:  The Divine Spark of Jesus",
+      "url": "https://www.youtube.com/watch?v=pp0E1gb80WQ",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "Y-gXVzwbFMU",
+      "title": "Secret History #21:  Roman Anti-Civilization",
+      "url": "https://www.youtube.com/watch?v=Y-gXVzwbFMU",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "z0AwFin83lo",
+      "title": "Secret History #20:  The Hellenistic World",
+      "url": "https://www.youtube.com/watch?v=z0AwFin83lo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "3t0MeVBD24I",
+      "title": "Secret History #19:  Dawn of the Jews",
+      "url": "https://www.youtube.com/watch?v=3t0MeVBD24I",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "dELEdxh0ceg",
+      "title": "Secret History #18:  Thus Spoke Zarathustra",
+      "url": "https://www.youtube.com/watch?v=dELEdxh0ceg",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "PlMNq44tBG0",
+      "title": "Secret History #17:  Literary Genesis",
+      "url": "https://www.youtube.com/watch?v=PlMNq44tBG0",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "4ehovUNrSrw",
+      "title": "Secret History #16:  The Big Bang of Greek Civilization",
+      "url": "https://www.youtube.com/watch?v=4ehovUNrSrw",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "rkt0HQOogHE",
+      "title": "Secret History #15:  Capital and the Bronze Age Collapse",
+      "url": "https://www.youtube.com/watch?v=rkt0HQOogHE",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "JpTI2gFYWrU",
+      "title": "Secret History #14:  Legacy of the Steppes",
+      "url": "https://www.youtube.com/watch?v=JpTI2gFYWrU",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "FJF8oD_5c_w",
+      "title": "Secret History #13:  Mandate of Heaven",
+      "url": "https://www.youtube.com/watch?v=FJF8oD_5c_w",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "VtnRA-GNKM8",
+      "title": "Secret History #12:  Heaven on Earth",
+      "url": "https://www.youtube.com/watch?v=VtnRA-GNKM8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "LvHsg5qtDs8",
+      "title": "Secret History #11:  Dawn of the Human Imagination",
+      "url": "https://www.youtube.com/watch?v=LvHsg5qtDs8",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ihh1fdW4-cA",
+      "title": "Secret History #10:  The Conspiracy of Evil",
+      "url": "https://www.youtube.com/watch?v=ihh1fdW4-cA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "9MURGjjG4aA",
+      "title": "Secret History #9:   The Theory of Everything",
+      "url": "https://www.youtube.com/watch?v=9MURGjjG4aA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "hk_yhi3-prw",
+      "title": "Secret History #8:  Death by Bureaucracy",
+      "url": "https://www.youtube.com/watch?v=hk_yhi3-prw",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "JU_8fJjtGxA",
+      "title": "Secret History #7:  Death by Meritocracy",
+      "url": "https://www.youtube.com/watch?v=JU_8fJjtGxA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "6PdfD44DkqA",
+      "title": "Secret History #6:  The Psychology of Evil (Graphic and Disturbing, Viewer Discretion Advised)",
+      "url": "https://www.youtube.com/watch?v=6PdfD44DkqA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "EgGfQdv_rPc",
+      "title": "Secret History #5:  The Birth of Evil",
+      "url": "https://www.youtube.com/watch?v=EgGfQdv_rPc",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "BtlWoqWLm9Q",
+      "title": "Secret History #4:  How Evil Triumphs",
+      "url": "https://www.youtube.com/watch?v=BtlWoqWLm9Q",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "0g3yo1DjiLM",
+      "title": "Secret History #3:  Death by Gerontocracy",
+      "url": "https://www.youtube.com/watch?v=0g3yo1DjiLM",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "K-_l9jBGo74",
+      "title": "Secret History #2:  How Societies Collapse",
+      "url": "https://www.youtube.com/watch?v=K-_l9jBGo74",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    },
+    {
+      "video_id": "lt8XLz78ZvY",
+      "title": "Secret History #1:  How Power Works (4K Re-Upload with Audio Fixed)",
+      "url": "https://www.youtube.com/watch?v=lt8XLz78ZvY",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ajFXykT9Joo",
+      "title": "Secret History #1:  How Power Works",
+      "url": "https://www.youtube.com/watch?v=ajFXykT9Joo",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "E83dpuyvpiM",
+      "title": "Geo-Strategy Update #8:  Why the West is Doomed",
+      "url": "https://www.youtube.com/watch?v=E83dpuyvpiM",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "YQ-xg1nIbMs",
+      "title": "Geo-Strategy Update #7:  When Eschatologies Converge",
+      "url": "https://www.youtube.com/watch?v=YQ-xg1nIbMs",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "ZgvAHZqaawA",
+      "title": "Geo-Strategy Update #6:  Is Putin the Ubermensch?",
+      "url": "https://www.youtube.com/watch?v=ZgvAHZqaawA",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "5I2VPYPJJ68",
+      "title": "Geo-Strategy Update #5:   The Universal Law of Game Theory",
+      "url": "https://www.youtube.com/watch?v=5I2VPYPJJ68",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "Kw-TiN6dEcM",
+      "title": "Geo-Strategy Update #4:  Newton's Divine Plan",
+      "url": "https://www.youtube.com/watch?v=Kw-TiN6dEcM",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "imported"
+    },
+    {
+      "video_id": "bc9adtiIN_k",
+      "title": "Geo-Strategy Update #3:  The Messianic Calling",
+      "url": "https://www.youtube.com/watch?v=bc9adtiIN_k",
+      "published_at": null,
+      "discovered_at": "2026-08-19T01:57:55.752Z",
+      "status": "artifacts-ready"
+    }
+  ]
 }

@@ -4,17 +4,25 @@
     "path": "@PredictiveHistory",
     "url": "https://www.youtube.com/@PredictiveHistory/videos"
   },
-  "last_discovery_change_at": "2026-08-19T01:57:55.752Z",
+  "last_discovery_change_at": "2026-08-31T22:57:02.038Z",
   "sources": [
+    {
+      "video_id": "5gyyAzfmWk4",
+      "title": "Global Meet-Up #4 (Austin, Texas):  American Prophecy",
+      "url": "https://www.youtube.com/watch?v=5gyyAzfmWk4",
+      "published_at": null,
+      "discovered_at": "2026-08-31T22:57:02.038Z",
+      "status": "needs-transcript",
+      "last_attempt_at": "2026-08-31T22:57:05.316Z",
+      "last_error": "ERROR: [youtube] 5gyyAzfmWk4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
     {
       "video_id": "N2GFDDZtGQY",
       "title": "Global Meet-Up #2 (Los Angeles):  The \"End of the World\" US Tour",
       "url": "https://www.youtube.com/watch?v=N2GFDDZtGQY",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T01:57:59.554Z",
-      "last_error": "ERROR: [youtube] N2GFDDZtGQY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "5rDMq-5_xkM",
@@ -22,9 +30,7 @@
       "url": "https://www.youtube.com/watch?v=5rDMq-5_xkM",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T01:58:02.368Z",
-      "last_error": "ERROR: [youtube] 5rDMq-5_xkM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "Z1G6WI1Q0M8",
@@ -32,9 +38,7 @@
       "url": "https://www.youtube.com/watch?v=Z1G6WI1Q0M8",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T07:12:10.217Z",
-      "last_error": "ERROR: [youtube] Z1G6WI1Q0M8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "A9Sr-4c-3Tg",
@@ -42,9 +46,7 @@
       "url": "https://www.youtube.com/watch?v=A9Sr-4c-3Tg",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T07:12:12.400Z",
-      "last_error": "ERROR: [youtube] A9Sr-4c-3Tg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "E7QKiRnw0M8",
@@ -52,9 +54,7 @@
       "url": "https://www.youtube.com/watch?v=E7QKiRnw0M8",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T13:16:30.315Z",
-      "last_error": "ERROR: [youtube] E7QKiRnw0M8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "zbjLl85FLUc",
@@ -62,9 +62,7 @@
       "url": "https://www.youtube.com/watch?v=zbjLl85FLUc",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T13:16:33.178Z",
-      "last_error": "ERROR: [youtube] zbjLl85FLUc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "qRCSZoGC2Dg",
@@ -72,9 +70,7 @@
       "url": "https://www.youtube.com/watch?v=qRCSZoGC2Dg",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T18:58:58.880Z",
-      "last_error": "ERROR: [youtube] qRCSZoGC2Dg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "Sa5kffYLvBE",
@@ -82,9 +78,7 @@
       "url": "https://www.youtube.com/watch?v=Sa5kffYLvBE",
       "published_at": null,
       "discovered_at": "2026-08-19T01:57:55.752Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-08-19T18:59:01.782Z",
-      "last_error": "ERROR: [youtube] Sa5kffYLvBE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "oR3EOW52WCc",

@@ -4,17 +4,25 @@
     "path": "@PredictiveHistory",
     "url": "https://www.youtube.com/@PredictiveHistory/videos"
   },
-  "last_discovery_change_at": "2026-09-15T21:31:54.077Z",
+  "last_discovery_change_at": "2026-09-25T21:41:48.513Z",
   "sources": [
+    {
+      "video_id": "q7GdLK1xwAo",
+      "title": "Emergency Discussion #3:  Xi Visits Trump",
+      "url": "https://www.youtube.com/watch?v=q7GdLK1xwAo",
+      "published_at": null,
+      "discovered_at": "2026-09-25T21:41:48.513Z",
+      "status": "needs-transcript",
+      "last_attempt_at": "2026-09-25T21:41:51.217Z",
+      "last_error": "ERROR: [youtube] q7GdLK1xwAo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
     {
       "video_id": "hcuT_mpeTxo",
       "title": "Global Meet-Up #5 (Toronto):  Canada's Corporate Re-Structuring",
       "url": "https://www.youtube.com/watch?v=hcuT_mpeTxo",
       "published_at": null,
       "discovered_at": "2026-09-15T21:31:54.077Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-09-15T21:31:56.465Z",
-      "last_error": "ERROR: [youtube] hcuT_mpeTxo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "5gyyAzfmWk4",

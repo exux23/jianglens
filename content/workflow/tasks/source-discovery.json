@@ -4,17 +4,25 @@
     "path": "@PredictiveHistory",
     "url": "https://www.youtube.com/@PredictiveHistory/videos"
   },
-  "last_discovery_change_at": "2026-09-25T21:41:48.513Z",
+  "last_discovery_change_at": "2026-10-04T12:34:57.063Z",
   "sources": [
+    {
+      "video_id": "YyUl1QerHjA",
+      "title": "Global Meet-Up #6 (Montreal):  The Supremacy of Sin",
+      "url": "https://www.youtube.com/watch?v=YyUl1QerHjA",
+      "published_at": null,
+      "discovered_at": "2026-10-04T12:34:57.063Z",
+      "status": "needs-transcript",
+      "last_attempt_at": "2026-10-04T12:34:59.620Z",
+      "last_error": "ERROR: [youtube] YyUl1QerHjA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
     {
       "video_id": "q7GdLK1xwAo",
       "title": "Emergency Discussion #3:  Xi Visits Trump",
       "url": "https://www.youtube.com/watch?v=q7GdLK1xwAo",
       "published_at": null,
       "discovered_at": "2026-09-25T21:41:48.513Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-09-25T21:41:51.217Z",
-      "last_error": "ERROR: [youtube] q7GdLK1xwAo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "hcuT_mpeTxo",

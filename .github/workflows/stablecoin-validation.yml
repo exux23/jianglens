@@ -1,0 +1,24 @@
+name: Stablecoin Validation
+
+on:
+  push:
+    paths:
+      - 'stablecoin-history/**'
+      - '.github/workflows/stablecoin-validation.yml'
+  pull_request:
+    paths:
+      - 'stablecoin-history/**'
+      - '.github/workflows/stablecoin-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s stablecoin-history/2026-10-21 -p 'test_*.py' -v

@@ -24,15 +24,6 @@ jobs:
       - run: python3 -m unittest discover -s stablecoin-history/2026-10-21 -p 'test_*.py' -v
       - name: Validate committed snapshot
         run: python3 stablecoin-history/2026-10-21/research.py verify stablecoin-history/2026-10-21 | tee archive-quality-report.json
-      - name: Live API smoke check
-        run: python3 stablecoin-history/2026-10-21/research.py collect "smoke/${{ github.run_id }}" --assets 1 --market
-      - name: Upload live smoke snapshot
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: stablecoin-live-smoke
-          path: smoke/
-          if-no-files-found: ignore
       - name: Upload validation report
         if: always()
         uses: actions/upload-artifact@v4

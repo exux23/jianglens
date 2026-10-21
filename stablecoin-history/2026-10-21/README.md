@@ -37,3 +37,7 @@ https://stablecoins.llama.fi/stablecoinchains
 - Hourly Aave / Curve / Uniswap stablecoin dataset from 2022 onward: https://github.com/MSCA-DN-Digital-Finance/stablecoin-onchain-data . Zenodo https://doi.org/10.5281/zenodo.18348021
 
 Blockscout historic contract reads could not be completed with the available account. Blockscout requires a PRO API key for subsequent requests.
+
+## Research data pipeline
+
+See [RESEARCH_PIPELINE.md](RESEARCH_PIPELINE.md) for structural validation, repeatable historical asset-by-chain collection, source-provenance snapshots, price-key resolution, and the scheduled collection workflow. The original October 21 data files remain unchanged.

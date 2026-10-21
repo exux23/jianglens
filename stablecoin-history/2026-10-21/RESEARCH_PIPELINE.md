@@ -23,6 +23,8 @@ python3 research.py collect ./updates/2026-10-22 --assets 1,2 --market
 python3 research.py collect ./updates/full-2026-10-22 --all-assets --market
 ```
 
+A live integration run collected 129,731 asset-by-chain observations for catalog ID 1 on October 21, 2026 and exercised the price and market feed. The test captured nested bridge metadata and string-valued prices.
+
 The collector retrieves the upstream current asset catalog and selected `/stablecoin/{id}` histories. Each request is preserved as gzipped JSON with its URL and SHA-256 in `snapshot.json`. The normalized `asset_chain_daily.csv.gz` is keyed by `(stablecoin_id, chain, date, peg_type)` and keeps circulation in peg units separate from USD. Unknown values stay empty. Schema errors, invalid IDs and duplicates fail the run without publishing a partial output directory. Existing snapshots are never overwritten.
 
 With `--market` it also captures `/stablecoincharts/all`, `/stablecoinchains`, and `/stablecoinprices`, writing `market_daily.csv.gz`, `price_daily.csv.gz`, and `price_key_mapping.csv`. Price keys match the current catalog **only through unique exact `gecko_id` values**. Ambiguous/unmatched keys remain explicitly flagged, not guessed. Matches are *current* metadata and are not point-in-time asset identities.

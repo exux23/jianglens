@@ -6,9 +6,7 @@ import datetime as dt
 from decimal import Decimal, InvalidOperation
 import gzip
 import hashlib
-import io
 import json
-import math
 import os
 from pathlib import Path
 import tempfile

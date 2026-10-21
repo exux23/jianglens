@@ -22,3 +22,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 -m unittest discover -s stablecoin-history/2026-10-21 -p 'test_*.py' -v
+      - name: Validate committed snapshot
+        run: python3 stablecoin-history/2026-10-21/research.py verify stablecoin-history/2026-10-21 | tee archive-quality-report.json
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-quality-report
+          path: archive-quality-report.json
+          if-no-files-found: ignore

@@ -269,11 +269,16 @@ def process_local(source, channel, root, args):
     print(f"[done] {source.name}: {len(result['turns'])} turns in {folder}", flush=True)
 
 
+def default_output():
+    repo = Path(__file__).resolve().parents[2]
+    return repo / "content/sources/raw/youtube" if (repo / "ops/scripts/import-colab-video.mjs").is_file() else Path(__file__).resolve().parent / "output"
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Locally transcribe YouTube videos into JiangLens-compatible artifacts")
     parser.add_argument("source", help="YouTube video, playlist or channel URL, or local media file")
     parser.add_argument("--channel", default="@PredictiveHistory", help="Output channel folder")
-    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[2] / "content/sources/raw/youtube")
+    parser.add_argument("--output", type=Path, default=default_output())
     parser.add_argument("--model", default="large-v3", choices=("large-v3", "medium", "small"))
     parser.add_argument("--device", choices=("auto", "cuda", "cpu"), default="auto")
     parser.add_argument("--diarize", action="store_true", help="Identify speakers using gated, free pyannote model")

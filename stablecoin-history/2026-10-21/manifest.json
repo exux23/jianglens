@@ -1,0 +1,107 @@
+{
+  "collected_on_utc": "2026-10-21",
+  "source": "https://stablecoins.llama.fi/stablecoincharts/all?stablecoin={stablecoin_id}",
+  "asset_count": 424,
+  "row_count": 343995,
+  "file_format": "gzip-compressed UTF-8 CSV",
+  "columns": [
+    "date_utc",
+    "date_unix",
+    "stablecoin_id",
+    "symbol",
+    "name",
+    "peg_type",
+    "circulating",
+    "circulating_usd",
+    "unreleased",
+    "minted_usd",
+    "bridged_to_usd"
+  ],
+  "warning": "The bridged_to_usd column is uncollected/blank in the groups beginning with asset index 215, due to a collection omission. Never interpret blank values as zero.",
+  "parts": [
+    {
+      "start_index_in_catalog": 0,
+      "end_index_exclusive": 10,
+      "rows": 14457,
+      "sha": "5055e1f116c653a946c50dd2030dd94d8b55d16c",
+      "filename": "asset_supply_000_009.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 10,
+      "end_index_exclusive": 55,
+      "rows": 32456,
+      "sha": "ceb8e3ace6fd9fee32ce1457ddc3a5d14debe310",
+      "filename": "asset_supply_010_054.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 55,
+      "end_index_exclusive": 95,
+      "rows": 28527,
+      "sha": "3eaef8ee8ec0bcee49378a6e0c10cbc9e9baaa20",
+      "filename": "asset_supply_055_094.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 95,
+      "end_index_exclusive": 135,
+      "rows": 34581,
+      "sha": "7483ab4628b38b72173e7d439777e9eaa113e35b",
+      "filename": "asset_supply_095_134.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 135,
+      "end_index_exclusive": 175,
+      "rows": 32974,
+      "sha": "c876035933ca34221ecb7047cafc14cd32cdd1e4",
+      "filename": "asset_supply_135_174.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 175,
+      "end_index_exclusive": 215,
+      "rows": 34971,
+      "sha": "84ff05bfc79a0c9bb93fc7a9c5d72b65200c431d",
+      "filename": "asset_supply_175_214.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 215,
+      "end_index_exclusive": 255,
+      "rows": 40875,
+      "sha": "d56ba6dbd2c1240fffb319a7a905f0975eb7125d",
+      "filename": "asset_supply_215_254.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 255,
+      "end_index_exclusive": 295,
+      "rows": 36513,
+      "sha": "d1e120911cac75f8e796d1d602bd42392c1d1c4c",
+      "filename": "asset_supply_255_294.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 295,
+      "end_index_exclusive": 335,
+      "rows": 31121,
+      "sha": "64e02805e1ca7291c8980e56337d6e63556339f8",
+      "filename": "asset_supply_295_334.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 335,
+      "end_index_exclusive": 375,
+      "rows": 46515,
+      "sha": "942aed310b3916b042b7c125fbe0a490ebd5272d",
+      "filename": "asset_supply_335_374.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 375,
+      "end_index_exclusive": 415,
+      "rows": 10403,
+      "sha": "5a42a916882d35d527d62960512fd370b5e51bb1",
+      "filename": "asset_supply_375_414.csv.gz"
+    },
+    {
+      "start_index_in_catalog": 415,
+      "end_index_exclusive": 424,
+      "rows": 602,
+      "sha": "e30b2f6b72cb0aa863abc7a1d1e0b607685c2277",
+      "filename": "asset_supply_415_423.csv.gz"
+    }
+  ]
+}

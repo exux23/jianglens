@@ -24,6 +24,15 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(row['unreleased'], '0')
         self.assertEqual(row['bridged_to'], '')
 
+    def test_nested_bridge_metadata_not_treated_as_peg(self):
+        asset = {'id': 1, 'chainBalances': {'Tron': {'tokens': [
+            {'date': 1735689600, 'circulating': {'peggedUSD': 50},
+             'bridgedTo': {'not-found': {'not-found': {'amount': 5583011}}}}
+        ]}}}
+        row, = list(research.chain_rows(asset))
+        self.assertEqual(row['peg_type'], 'peggedUSD')
+        self.assertEqual(row['bridged_to'], '')
+
     def test_reject_invalid_chain_history(self):
         with self.assertRaises(ValueError):
             list(research.chain_rows({'id': '1', 'chainBalances': {'Ethereum': {'tokens': {}}}}))

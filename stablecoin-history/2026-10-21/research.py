@@ -46,7 +46,7 @@ def day(value):
 def amount(value, peg):
     if isinstance(value, dict):
         value = value.get(peg)
-    if value is None or value == '':
+    if value is None or value == '' or isinstance(value, (dict, list)):
         return ''
     if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
         raise ValueError(f'invalid amount {value!r}')
@@ -80,11 +80,11 @@ def chain_rows(asset):
             if not isinstance(observation, dict):
                 raise ValueError(f'invalid observation on {chain}')
             types = set()
-            for k in ('circulating', 'circulatingUSD', 'minted', 'unreleased', 'bridgedTo'):
+            for k in ('circulating', 'circulatingUSD', 'unreleased'):
                 if isinstance(observation.get(k), dict):
-                    types.update(observation[k])
+                    types.update(p for p in observation[k] if p.startswith('pegged'))
             if not types:
-                raise ValueError(f'no pegged amounts in {chain} observation')
+                continue
             for peg in sorted(types):
                 yield dict(stablecoin_id=str(asset['id']), symbol=asset.get('symbol', ''),
                            chain=chain, date=day(observation['date']), peg_type=peg,

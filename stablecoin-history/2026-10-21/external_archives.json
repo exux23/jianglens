@@ -1,0 +1,24 @@
+{
+  "external_archives": [
+    {
+      "name": "BlockDB Stablecoin Transfers",
+      "coverage": "2017-11 to 2025-10 Ethereum USDT USDC DAI",
+      "format": "Parquet",
+      "reported_size_bytes": 83600000000,
+      "reported_rows": 587834869,
+      "url": "https://huggingface.co/datasets/BlockDB/Stablecoin-Transfers-Ethereum-Cryptocurrency-Data",
+      "included_in_repo": false
+    },
+    {
+      "name": "Stablecoin DeFi Hourly Dataset",
+      "coverage": "2022 onward Ethereum USDT USDC DAI",
+      "format": "Parquet",
+      "url": "https://github.com/MSCA-DN-Digital-Finance/stablecoin-onchain-data",
+      "included_in_repo": false
+    }
+  ],
+  "blockscout": {
+    "status": "PRO API key required for further historical reads",
+    "token_lookup": "USDC Ethereum address 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  }
+}

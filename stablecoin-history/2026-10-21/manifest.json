@@ -1,107 +1,211 @@
 {
-  "collected_on_utc": "2026-10-21",
-  "source": "https://stablecoins.llama.fi/stablecoincharts/all?stablecoin={stablecoin_id}",
+  "snapshot_utc": "2026-10-21",
+  "latest_series_observation_utc": "2026-10-20",
   "asset_count": 424,
-  "row_count": 343995,
-  "file_format": "gzip-compressed UTF-8 CSV",
-  "columns": [
-    "date_utc",
-    "date_unix",
-    "stablecoin_id",
-    "symbol",
-    "name",
-    "peg_type",
-    "circulating",
-    "circulating_usd",
-    "unreleased",
-    "minted_usd",
-    "bridged_to_usd"
+  "supply_rows": 343995,
+  "price_rows": 231764,
+  "market_total_rows": 21066,
+  "chain_rows": 80763,
+  "chain_names": [
+    "Ethereum",
+    "Tron",
+    "BSC",
+    "Solana",
+    "Base",
+    "Arbitrum",
+    "Optimism",
+    "Polygon",
+    "Avalanche",
+    "Sui",
+    "Aptos",
+    "TON"
   ],
-  "warning": "The bridged_to_usd column is uncollected/blank in the groups beginning with asset index 215, due to a collection omission. Never interpret blank values as zero.",
-  "parts": [
+  "current_chain_count": 209,
+  "dataset_file_count": 25,
+  "source_urls": [
+    "https://stablecoins.llama.fi/stablecoins?includePrices=true",
+    "https://stablecoins.llama.fi/stablecoincharts/all",
+    "https://stablecoins.llama.fi/stablecoinprices",
+    "https://stablecoins.llama.fi/stablecoinchains"
+  ],
+  "limitations": [
+    "Historic prices start at 2020-12-30 and vary by asset; historic supply begins for some series in 2017.",
+    "Only 12 individual chain daily-total histories were bundled, though current metadata includes 209 chains.",
+    "A missing field is not necessarily zero. USD-valued supply differs from peg-unit supply for non-USD assets.",
+    "The optional bridged_to_usd field is not collected for stablecoin catalog batches beginning at asset index 215.",
+    "These data are provider-derived, not primary on-chain audited reserve data.",
+    "Blockscout historical data was unavailable without a PRO API key; only public contract lookup was possible."
+  ],
+  "files": [
     {
-      "start_index_in_catalog": 0,
-      "end_index_exclusive": 10,
+      "path": "supply/asset_supply_000_009.csv.gz",
       "rows": 14457,
       "sha": "5055e1f116c653a946c50dd2030dd94d8b55d16c",
-      "filename": "asset_supply_000_009.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 10,
-      "end_index_exclusive": 55,
+      "path": "supply/asset_supply_010_054.csv.gz",
       "rows": 32456,
       "sha": "ceb8e3ace6fd9fee32ce1457ddc3a5d14debe310",
-      "filename": "asset_supply_010_054.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 55,
-      "end_index_exclusive": 95,
+      "path": "supply/asset_supply_055_094.csv.gz",
       "rows": 28527,
       "sha": "3eaef8ee8ec0bcee49378a6e0c10cbc9e9baaa20",
-      "filename": "asset_supply_055_094.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 95,
-      "end_index_exclusive": 135,
+      "path": "supply/asset_supply_095_134.csv.gz",
       "rows": 34581,
       "sha": "7483ab4628b38b72173e7d439777e9eaa113e35b",
-      "filename": "asset_supply_095_134.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 135,
-      "end_index_exclusive": 175,
+      "path": "supply/asset_supply_135_174.csv.gz",
       "rows": 32974,
       "sha": "c876035933ca34221ecb7047cafc14cd32cdd1e4",
-      "filename": "asset_supply_135_174.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 175,
-      "end_index_exclusive": 215,
+      "path": "supply/asset_supply_175_214.csv.gz",
       "rows": 34971,
       "sha": "84ff05bfc79a0c9bb93fc7a9c5d72b65200c431d",
-      "filename": "asset_supply_175_214.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 215,
-      "end_index_exclusive": 255,
+      "path": "supply/asset_supply_215_254.csv.gz",
       "rows": 40875,
       "sha": "d56ba6dbd2c1240fffb319a7a905f0975eb7125d",
-      "filename": "asset_supply_215_254.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 255,
-      "end_index_exclusive": 295,
+      "path": "supply/asset_supply_255_294.csv.gz",
       "rows": 36513,
       "sha": "d1e120911cac75f8e796d1d602bd42392c1d1c4c",
-      "filename": "asset_supply_255_294.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 295,
-      "end_index_exclusive": 335,
+      "path": "supply/asset_supply_295_334.csv.gz",
       "rows": 31121,
       "sha": "64e02805e1ca7291c8980e56337d6e63556339f8",
-      "filename": "asset_supply_295_334.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 335,
-      "end_index_exclusive": 375,
+      "path": "supply/asset_supply_335_374.csv.gz",
       "rows": 46515,
       "sha": "942aed310b3916b042b7c125fbe0a490ebd5272d",
-      "filename": "asset_supply_335_374.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 375,
-      "end_index_exclusive": 415,
+      "path": "supply/asset_supply_375_414.csv.gz",
       "rows": 10403,
       "sha": "5a42a916882d35d527d62960512fd370b5e51bb1",
-      "filename": "asset_supply_375_414.csv.gz"
+      "category": "daily_asset_supply"
     },
     {
-      "start_index_in_catalog": 415,
-      "end_index_exclusive": 424,
+      "path": "supply/asset_supply_415_423.csv.gz",
       "rows": 602,
       "sha": "e30b2f6b72cb0aa863abc7a1d1e0b607685c2277",
-      "filename": "asset_supply_415_423.csv.gz"
+      "category": "daily_asset_supply"
+    },
+    {
+      "path": "prices/price_daily_0000_0349.csv.gz",
+      "rows": 9994,
+      "sha": "eb5f9d80a3d64b90df79d18fde6cd5ce74df5c3e",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_0350_0699.csv.gz",
+      "rows": 17332,
+      "sha": "a1723e69bfa480d9ff0a50f98f4daea100306203",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_0700_1049.csv.gz",
+      "rows": 30518,
+      "sha": "f9da408648e1c3bc1a297629824bef73da70b4d2",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_1050_1399.csv.gz",
+      "rows": 40924,
+      "sha": "476268ec512882c53679b691380567e8e37bb789",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_1400_1749.csv.gz",
+      "rows": 56743,
+      "sha": "61ff20eae15e2254e525d8fe5f67a9a5f902735e",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_1750_1899.csv.gz",
+      "rows": 29241,
+      "sha": "d577f0e5655eb375a436f3d40b52a5e547f53b2c",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_1900_2049.csv.gz",
+      "rows": 32149,
+      "sha": "1b2390ac061c697ff1008280c4b0ae3184db4c4a",
+      "category": "daily_prices"
+    },
+    {
+      "path": "prices/price_daily_2050_2116.csv.gz",
+      "rows": 14863,
+      "sha": "3df9b2d8e3630ee9f575d5389326641bda85f699",
+      "category": "daily_prices"
+    },
+    {
+      "path": "chains/ethereum_tron_bsc_daily.csv.gz",
+      "rows": 26576,
+      "sha": "c6879eee423fb627be4a17c9c80d57de519261a1",
+      "category": "daily_chain_supply",
+      "chains": [
+        "Ethereum",
+        "Tron",
+        "BSC"
+      ]
+    },
+    {
+      "path": "chains/solana_base_arbitrum_daily.csv.gz",
+      "rows": 22235,
+      "sha": "c1e17e08407eadf5d6afd02f133e1d5a40a7b2ce",
+      "category": "daily_chain_supply",
+      "chains": [
+        "Solana",
+        "Base",
+        "Arbitrum"
+      ]
+    },
+    {
+      "path": "chains/optimism_polygon_avalanche_daily.csv.gz",
+      "rows": 28621,
+      "sha": "726cc2fc7c5607eafaaa378207e66adb0c927ef9",
+      "category": "daily_chain_supply",
+      "chains": [
+        "Optimism",
+        "Polygon",
+        "Avalanche"
+      ]
+    },
+    {
+      "path": "chains/sui_aptos_ton_daily.csv.gz",
+      "rows": 3331,
+      "sha": "bb4749244b5c2b7aee923fd6ad0b64ad47cbdd3e",
+      "category": "daily_chain_supply",
+      "chains": [
+        "Sui",
+        "Aptos",
+        "TON"
+      ]
+    },
+    {
+      "path": "market_and_catalog_2026-10-21.zip",
+      "category": "catalog_current_plus_market_daily",
+      "rows": 21066,
+      "sha": "10a49387ca4eb45699f07a3fc9d076e2f9ad390b"
     }
   ]
 }

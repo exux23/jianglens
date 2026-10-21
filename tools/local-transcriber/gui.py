@@ -8,6 +8,8 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
+from transcribe import default_output
+
 ROOT = Path(__file__).resolve().parent
 
 
@@ -19,7 +21,7 @@ def main():
     content.pack(fill="both", expand=True)
     source = tk.StringVar()
     channel = tk.StringVar(value="@PredictiveHistory")
-    output = tk.StringVar(value=str(ROOT.parents[1] / "content/sources/raw/youtube"))
+    output = tk.StringVar(value=str(default_output()))
     diarization = tk.BooleanVar(value=False)
     model = tk.StringVar(value="large-v3")
     proc = [None]

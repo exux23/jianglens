@@ -1,0 +1,3 @@
+yt-dlp>=2026.9
+faster-whisper>=1.2,<2
+# Optional, install for speaker identification: pyannote.audio==4.0.3

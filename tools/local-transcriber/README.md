@@ -24,6 +24,17 @@ Faster-Whisper GPU execution needs CUDA 12 cuBLAS and cuDNN 9 libraries (https:/
 
 Then put the directories containing those libraries on LD_LIBRARY_PATH before starting Python. If CUDA is unavailable, specify --device cpu. Large-v3 on the RTX 3060 Ti uses INT8 quantization to reduce VRAM use. Hardware compatibility has not been verified on your PC.
 
+## Standalone download
+
+Unpack the ZIP into a folder, then in WSL2 Ubuntu run from that folder:
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    python gui.py
+
+Install FFmpeg and GPU dependencies as described above. The standalone application writes to its own output/ directory by default.
+
 ## Run
 
 Run one video:

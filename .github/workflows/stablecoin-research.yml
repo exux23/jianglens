@@ -1,0 +1,42 @@
+name: Stablecoin Research
+
+on:
+  workflow_dispatch:
+    inputs:
+      full_catalog:
+        type: boolean
+        default: false
+        description: Fetch all catalog assets (hundreds of requests)
+  schedule:
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test transformations
+        run: python3 -m unittest discover -s stablecoin-history/2026-10-21 -p 'test_*.py' -v
+      - name: Collect immutable snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ '${{ inputs.full_catalog }}' == 'true' ]]; then
+            python3 stablecoin-history/2026-10-21/research.py collect "snapshot/${{ github.run_id }}" --all-assets --market
+          else
+            python3 stablecoin-history/2026-10-21/research.py collect "snapshot/${{ github.run_id }}" --assets 1,2 --market
+          fi
+      - name: Preserve run artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stablecoin-${{ github.run_id }}
+          path: snapshot/
+          retention-days: 90
+          if-no-files-found: error

@@ -117,6 +117,7 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(record['bridged_to_usd'], '')
 
     def test_date_support_and_reject_nonfinite(self):
+        self.assertEqual(research.amount('1.1017182', ''), '1.1017182')
         self.assertEqual(research.day('2026-10-21'), '2026-10-21')
         self.assertEqual(research.day('1761004800000'), '2025-10-21')
         with self.assertRaises(ValueError):

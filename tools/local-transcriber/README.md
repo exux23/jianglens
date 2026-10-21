@@ -42,7 +42,7 @@ Launch the desktop interface (requires Tkinter and WSLg):
 
     python tools/local-transcriber/gui.py
 
-Outputs default to content/sources/raw/youtube/<channel>/<video-id>/ under JiangLens. Already completed videos are skipped. Use --force to redo transcription or --max-videos 0 to process an entire playlist. Options include --device auto|cuda|cpu, --model large-v3|medium|small, --output PATH, --channel NAME, --cookies PATH and --diarize.
+Inside JiangLens, outputs default to content/sources/raw/youtube/<channel>/<video-id>/. When running this folder as a standalone download, outputs go to the local output/<channel>/<video-id>/ folder instead. Use --output /path/to/jianglens/content/sources/raw/youtube to target another JiangLens checkout. Already completed videos are skipped. Use --force to redo transcription or --max-videos 0 to process an entire playlist. Options include --device auto|cuda|cpu, --model large-v3|medium|small, --output PATH, --channel NAME, --cookies PATH and --diarize.
 
 ## Speakers
 

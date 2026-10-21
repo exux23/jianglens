@@ -4,3 +4,5 @@ __pycache__/
 audio.wav
 original.*
 *.tmp
+output/
+cookies.txt

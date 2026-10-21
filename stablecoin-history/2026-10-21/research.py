@@ -3,6 +3,7 @@
 import argparse
 import csv
 import datetime as dt
+from decimal import Decimal, InvalidOperation
 import gzip
 import hashlib
 import io
@@ -48,7 +49,11 @@ def amount(value, peg):
         value = value.get(peg)
     if value is None or value == '' or isinstance(value, (dict, list)):
         return ''
-    if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
+    try:
+        n = Decimal(str(value)) if not isinstance(value, bool) else Decimal('NaN')
+        if not n.is_finite():
+            raise ValueError
+    except (InvalidOperation, ValueError):
         raise ValueError(f'invalid amount {value!r}')
     return str(value)
 

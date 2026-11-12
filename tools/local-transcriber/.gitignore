@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+audio.wav
+original.*
+*.tmp
+output/
+cookies.txt

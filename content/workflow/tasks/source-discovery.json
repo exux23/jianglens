@@ -4,17 +4,25 @@
     "path": "@PredictiveHistory",
     "url": "https://www.youtube.com/@PredictiveHistory/videos"
   },
-  "last_discovery_change_at": "2026-11-06T07:03:38.289Z",
+  "last_discovery_change_at": "2026-11-17T08:10:18.432Z",
   "sources": [
+    {
+      "video_id": "rvvKZ619Ses",
+      "title": "Geo-Strategy Update #11:  Things Fall Apart (Huang Resigns, FAA Shutdown, Bank Outages)",
+      "url": "https://www.youtube.com/watch?v=rvvKZ619Ses",
+      "published_at": null,
+      "discovered_at": "2026-11-17T08:10:18.432Z",
+      "status": "needs-transcript",
+      "last_attempt_at": "2026-11-17T08:10:20.847Z",
+      "last_error": "ERROR: [youtube] rvvKZ619Ses: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+    },
     {
       "video_id": "jNESiKXBkn4",
       "title": "Geo-Strategy Update #10:  I Was Wrong. The Democrats Take Congress.",
       "url": "https://www.youtube.com/watch?v=jNESiKXBkn4",
       "published_at": null,
       "discovered_at": "2026-11-06T07:03:38.289Z",
-      "status": "needs-transcript",
-      "last_attempt_at": "2026-11-06T07:03:40.844Z",
-      "last_error": "ERROR: [youtube] jNESiKXBkn4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n"
+      "status": "needs-transcript"
     },
     {
       "video_id": "3xwJFjWcFow",
